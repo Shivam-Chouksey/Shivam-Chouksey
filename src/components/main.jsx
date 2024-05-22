@@ -8,6 +8,7 @@ import profile from '/profile picture.jpg'
 import download from '/download.png'
 import Screenshot from '/Screenshot.png'
 import common from '/common-bg.svg'
+import { HashLink } from 'react-router-hash-link'
 export default function Main() {
 
     const [show, setShow] = useState(false)
@@ -38,14 +39,15 @@ export default function Main() {
                     <ul>
                         {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line x1="3" x2="21" y1="18" y2="18" /></svg> */}
 
-                        <li><a href='#about'>ABOUT</a></li>
-                        <li><a href="#project">PROJECTS</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                        {/* <li><a href='#about'>ABOUT</a></li> */}
+                        <li><HashLink to='#about'>ABOUT</HashLink></li>
+                        <li><HashLink to='#project'>PROJECT</HashLink></li>
+                        <li><HashLink to='#contact'>CONTACT</HashLink></li>
+
                     </ul>
                 </div>
             </nav>
             <motion.div className={classes.introDiv}
-
                 style={{ opacity: useTransform(scrollY, [0, 300, 500], [1, 0.8, .3]) }}
             >
                 <div className={classes.intro_left}>
@@ -159,7 +161,7 @@ export default function Main() {
                 <form action="" onSubmit={getData} ref={form}>
 
                     <label htmlFor="name">Name: </label>
-                    <input type="text" id='name' placeholder='Enter Your Name' required name='user_name' />
+                    <input type="text" id='name' placeholder='Enter Your Name' required name='user_name' autoFocus />
                     <label htmlFor="email">Email: </label>
                     <input type="email" id='email' placeholder='Enter Your Email' required name='user_email' />
                     <label htmlFor="message">Message: </label>

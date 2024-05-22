@@ -1,17 +1,21 @@
 import './App.css'
-import { RouterProvider,createBrowserRouter,createHashRouter } from 'react-router-dom';
+import { RouterProvider,createHashRouter ,createBrowserRouter } from 'react-router-dom';
 import Layout from './components/layout'
 import CaseStudy from './components/caseStudy';
+import ScrollToTop from './ScrollToTop';
 
-const router = createBrowserRouter([
-  { path: '/', element: <Layout /> },
-  { path: '/caseStudy', element: <CaseStudy /> }])
+
+
+const router = createHashRouter([
+   
+  { path: '/', element:(<><ScrollToTop/><Layout /></>)},
+  {path:'/caseStudy',element:(<><CaseStudy/><ScrollToTop/></>)}
+])
+    
 function App() {
 
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <RouterProvider router={router}/>    
   )
 }
 
