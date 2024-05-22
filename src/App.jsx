@@ -1,5 +1,5 @@
 import './App.css'
-import { RouterProvider,createBrowserRouter } from 'react-router-dom';
+import { RouterProvider,createBrowserRouter,createHashRouter } from 'react-router-dom';
 import Layout from './components/layout'
 import CaseStudy from './components/caseStudy';
 
