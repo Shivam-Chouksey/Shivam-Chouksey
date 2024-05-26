@@ -446,7 +446,7 @@ nav {
 
 
 
-@media (max-width:331px) {
+@media (max-width:480px) {
     nav {
         width: 100vw;
     }
@@ -654,13 +654,4 @@ nav {
     .rightDiv>ul {
         display: none;
     }
-
-
-
-
-
-
-
-
-
 }
