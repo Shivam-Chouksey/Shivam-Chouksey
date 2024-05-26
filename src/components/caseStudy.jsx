@@ -9,7 +9,7 @@ export default function CaseStudy() {
                 <h1>INTERNSHALA CLONE</h1>
                 <span>This page contains the case study of INTERNSHALA CLONE Project which includes the Project Overview,
                     Tools Used and Live Links to the project.</span>
-                <button><a href="">PROJECT LINK</a></button>
+                <a href="https://shivam-chouksey.github.io/internClone/" >PROJECT LINK</a>
             </div>
             <div className={classes.secondDiv}>
                 <img src={scrnst} alt="" />
@@ -26,8 +26,8 @@ export default function CaseStudy() {
                 </div>
                 <h2>See Live</h2>
                 <div className={classes.btnDiv}>
-                    <button>PROJECT LINK</button>
-                    <Link to={'/'}><button>GO BACK</button></Link>
+                    <a href="https://shivam-chouksey.github.io/internClone/" >PROJECT LINK</a>
+                    <Link to='/'>GO BACK</Link>
                 </div>
             </div>
         </div >

@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
 import profile from '/profile picture.jpg'
 import download from '/download.png'
 import Screenshot from '/Screenshot.png'
-import common from '/common-bg.svg'
 import { HashLink } from 'react-router-hash-link'
 export default function Main() {
 
@@ -24,9 +23,6 @@ export default function Main() {
                     setShow(false)
                 }, 1000)
             })
-        // .catch((error) => {
-        //     console.log('not send', error)
-        // })
     }
     return (
         <>
@@ -63,17 +59,12 @@ export default function Main() {
                     className={classes.intro_right}>
                     <h1>HEY, I'M SHIVAM CHOUKSEY</h1>
                     <span>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</span>
-                    <a href="#project">PROJECTS</a>
+                    {/* <a href="#project">PROJECTS</a> */}
+                    <HashLink to='#project'>PROJECT</HashLink>
                 </motion.div>
             </motion.div>
 
-            <motion.div className={classes.about}
-                id='about'
-                style={{
-                    // opacity: useTransform(scrollY, [400, 600,], [.3, 1]),
-                    // animate: useTransform(scrollY, [600, 800], [100, 0])
-
-                }}
+            <div className={classes.about} id='about'
             >
                 <div className={classes.about1}>
                     <h1>ABOUT ME</h1>
@@ -90,7 +81,8 @@ export default function Main() {
                         </p>
                         <p> I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
                         </p>
-                        <a href="#contact">CONTACT</a>
+                        {/* <a href="#contact">CONTACT</a> */}
+                        <HashLink to='#contact'>CONTACT</HashLink>
                     </motion.div>
                     <div className={classes.aboutDiv2}>
                         <h2>My Skills</h2>
@@ -110,50 +102,32 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-            </motion.div >
+            </div >
 
-            <motion.div
-                // style={{
-                //     opacity: useTransform(scrollY, [1300, 1500, 1600], [1, 1, .3]),
-
-                // }}
-                className={classes.certification}>
+            <div className={classes.certification}>
                 <h2>CERTIFICATION</h2>
                 <span>Course - <img src={download} alt="" /> React - The Complete Guide 2023 (incl. React Router & Redux)</span><br />
                 <span>Source - Udemy</span><br />
-                <span>Completion Date - Oct/23</span>
-            </motion.div>
-            <motion.div
-                // style={{
-                //     opacity: useTransform(scrollY, [1800, 2000, 2500, 2800], [1, 1, .5, .3]),
-
-                // }}
-                className={classes.project} id='project'>
+                <span>Completion Date - Oct/23</span><br />
+                <a href="certificate.pdf">Certificate link</a>
+            </div>
+            <div  className={classes.project} id='project'>
                 <div className={classes.projectDiv1}>
                     <h2>PROJECTS</h2>
                     <span>Here you will find some of the personal projects that I have created with each project containing its own case study</span>
                 </div>
                 <div className={classes.projectDiv2}>
-                    <motion.div
-                        // style={{
-                        //     scale: useTransform(scrollY, [1400, 1700], [.1, 1]),
-                        // }}
-                        className={classes.projectDiv2_1}>
+                    <div  className={classes.projectDiv2_1}>
                         <img src={Screenshot} alt="" />
-                    </motion.div>
+                    </div>
                     <div className={classes.projectDiv2_2}>
                         <span>INTERNSHALA</span>
                         <p>Internshala is an online training and internship platform,which i have created from scratch using frontend tools</p>
                         <Link to={'/caseStudy'}><button>Case Study</button></Link>
                     </div>
                 </div>
-            </motion.div>
-            <motion.div
-                style={{
-                    //opacity: useTransform(scrollY, [1800, 2500, 3300], [1, .5, .3]),
-
-                }}
-                className={classes.contact} id='contact'>
+            </div>
+            <div  className={classes.contact} id='contact'>
                 <div className={classes.projectDiv1} id={classes.contactDiv1}>
                     <h2>CONTACT</h2>
                     <span>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
@@ -172,7 +146,7 @@ export default function Main() {
                     </div>
                 </form>
 
-            </motion.div >
+            </div >
 
         </>
     )

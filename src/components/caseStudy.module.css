@@ -18,9 +18,16 @@
     display: flex;
      background-image: url('src/assets/common-bg.svg'); 
 }
-
-.firstDiv a,
-a:hover {
+.firstDiv>a{
+    color: #FAFAFA;
+    background-color:blueviolet ;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.firstDiv>a:hover{
     color: white;
 }
 
@@ -85,9 +92,21 @@ a:hover {
     background-color: grey;
 }
 
-.btnDiv button {
+/* .btnDiv button {
     background-color: blueviolet;
     height: 3em;
+} */
+.btnDiv>a{
+    color: #FAFAFA;
+    background-color:blueviolet ;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.btnDiv>a:hover{
+    color: white;
 }
 
 
