@@ -125,7 +125,7 @@
 
 
 
-@media (max-width:480px) {
+@media (max-width:576px) {
 
     .firstDiv {
         width: 100%;
@@ -167,29 +167,4 @@
     .btnDiv {
         width: 90%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

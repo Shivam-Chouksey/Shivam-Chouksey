@@ -446,7 +446,7 @@ nav {
 
 
 
-@media (max-width:480px) {
+@media (max-width:576px) {
     nav {
         width: 100vw;
     }
