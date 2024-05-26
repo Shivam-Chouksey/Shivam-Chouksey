@@ -22,7 +22,10 @@ export default function CaseStudy() {
                 <h2>Tools Used</h2>
                 <div className={classes.spanDiv}>
                     <span>ReactJs</span>
+                    <span>Reduxjs</span>
                     <span>React-Router</span>
+
+
                 </div>
                 <h2>See Live</h2>
                 <div className={classes.btnDiv}>
