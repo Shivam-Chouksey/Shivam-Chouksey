@@ -369,12 +369,9 @@ nav {
 .contact {
     padding-top: 5em;
     background-color: white;
-    /* background-image: url(src/assets/back_1.jpeg); */
-    /* display: flex; */
     background-image: url(src/assets/common-bg.svg);
     flex-wrap: wrap;
-    /* height: 80em; */
-
+    height: 70em;
     width: 100%;
 }
 
@@ -412,7 +409,17 @@ nav {
     display: flex;
 
 }
-
+.certification>button{  
+    background-color: #7843E9;
+    color: white;
+    margin-top: 1em;
+}
+.certification>button>a{
+    color: white;
+}
+.certification>button>a:hover{
+    color: white;
+}
 
 
 
@@ -495,19 +502,16 @@ nav {
 
     .about1 {
         width: 100%;
-        /* height: 20em; */
-        /* background-color: aquamarine; */
-        /* height: 20%; */
-
+        /* background-color: #7843E9; */
         position: relative;
         display: flex;
         justify-content: start;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: start;
     }
 
     .about1>h1 {
-        padding-left: 1em;
+        padding-left: .5em;
         font-size: 35px;
         width: 70%;
 
@@ -562,11 +566,18 @@ nav {
         padding: 0;
         padding-left: .5em;
         padding-top: 1em;
-        height: 17em;
+        height: 20em;
         display: flex;
         /* align-items: start; */
         flex-direction: column;
         /* justify-content: start; */
+    }
+    .certification>button{
+        width: 10em;
+    }
+    .certification>h2{
+        text-align: start;
+        margin-left: .2em;
     }
 
     .project {
@@ -633,16 +644,16 @@ nav {
         padding-top: 1em;
         gap: 0;
         justify-content: start;
-        /* height: 40em; */
+        height: 73em;
         /* background-color: #7843E9; */
     }
 
     .contact>form {
-        margin: 0;
+        margin: auto;
+        /* display: flex; */
         margin-top: 2em;
-
         /* background-color: aqua; */
-        width: 100%;
+        width: 68vw;
     }
 
     #contactDiv1 {

@@ -8,6 +8,7 @@ import profile from '/profile picture.jpg'
 import download from '/download.png'
 import Screenshot from '/Screenshot.png'
 import { HashLink } from 'react-router-hash-link'
+import common_bg from '/common-bg.svg'
 export default function Main() {
 
     const [show, setShow] = useState(false)
@@ -109,7 +110,7 @@ export default function Main() {
                 <span>Course - <img src={download} alt="" /> React - The Complete Guide 2023 (incl. React Router & Redux)</span><br />
                 <span>Source - Udemy</span><br />
                 <span>Completion Date - Oct/23</span><br />
-                <a href="certificate.pdf">Certificate link</a>
+                <button> <a href="certificate.pdf">Certificate link</a></button>
             </div>
             <div  className={classes.project} id='project'>
                 <div className={classes.projectDiv1}>
@@ -127,7 +128,9 @@ export default function Main() {
                     </div>
                 </div>
             </div>
-            <div  className={classes.contact} id='contact'>
+            <div  className={classes.contact} id='contact'
+            style={{backgroundImage:`url(${common_bg})`}}
+            >
                 <div className={classes.projectDiv1} id={classes.contactDiv1}>
                     <h2>CONTACT</h2>
                     <span>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
