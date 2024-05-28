@@ -138,7 +138,7 @@ export default function Main() {
                 <form action="" onSubmit={getData} ref={form}>
 
                     <label htmlFor="name">Name: </label>
-                    <input type="text" id='name' placeholder='Enter Your Name' required name='user_name' autoFocus />
+                    <input type="text" id='name' placeholder='Enter Your Name' required name='user_name'/>
                     <label htmlFor="email">Email: </label>
                     <input type="email" id='email' placeholder='Enter Your Email' required name='user_email' />
                     <label htmlFor="message">Message: </label>
