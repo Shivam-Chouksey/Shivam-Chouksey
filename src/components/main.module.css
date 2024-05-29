@@ -498,21 +498,21 @@ nav {
     .about {
         /* background-color: brown; */
         position: relative;
-        height: 60em;
+        height: 68em;
         left: 0;
 
     }
 
     .about1 {
-        /* width: 90%; */
-        /* background-color: #7843E9; */
+        width: 90%;
+        background-color: #7843E9;
         position: relative;
         display: flex;
         justify-content: start;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: start;
-        height: 10em;
+        height: 12em;
        padding-left: .5em;
     }
 
