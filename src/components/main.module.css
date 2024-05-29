@@ -456,11 +456,13 @@ nav {
 @media (max-width:576px) {
     nav {
         width: 100vw;
+        /* left: 0; */
     }
 
     .leftDiv {
         /* background-color: #7843E9; */
         width: 100%;
+        
     }
 
     .intro_left {
@@ -496,45 +498,44 @@ nav {
     .about {
         /* background-color: brown; */
         position: relative;
-        height: 75em;
+        height: 60em;
+        left: 0;
 
     }
 
     .about1 {
-        width: 100%;
+        /* width: 100%; */
         /* background-color: #7843E9; */
         position: relative;
         display: flex;
         justify-content: start;
         flex-wrap: wrap;
         align-items: start;
+        height: 10em;
+       padding-left: .5em;
     }
 
     .about1>h1 {
-        padding-left: .5em;
+        /* padding-left: .5em; */
         font-size: 35px;
         width: 70%;
-
     }
 
-    .about1>span:first-of-type {
-        padding-left: 1em;
-
-    }
 
     .about2 {
         /* background-color: #7843E9; */
         display: flex;
         flex-direction: column;
-        /* height: 80%; */
+        height: 70%;
     }
 
     .aboutDiv1 {
         /* background-color: aqua; */
-        padding: 1em;
+        /* padding: 1em; */
+        padding-left: .5em;
         display: flex;
         width: 90%;
-        margin-bottom: 2em;
+        /* margin-bottom: 2em; */
         justify-content: start;
         align-items: start;
     }
@@ -542,11 +543,10 @@ nav {
     .aboutDiv2 {
         /* background-color: burlywood; */
         width: 100%;
+        padding-left: .5em;
     }
 
-    .aboutDiv2>h2 {
-        margin-left: .5em;
-    }
+ 
 
     .aboutDiv2underDiv {
         position: relative;
@@ -554,6 +554,7 @@ nav {
         width: 100%;
         margin: 0;
         height: 90%;
+        /* left: 0; */
     }
 
     .aboutDiv2underDiv>span {
@@ -563,9 +564,9 @@ nav {
 
     .certification {
         /* background-color: #7843E9; */
-        padding: 0;
+        /* padding: 0; */
         padding-left: .5em;
-        padding-top: 1em;
+        /* padding-top: 1em; */
         height: 20em;
         display: flex;
         /* align-items: start; */
@@ -577,7 +578,7 @@ nav {
     }
     .certification>h2{
         text-align: start;
-        margin-left: .2em;
+        /* margin-left: .2em; */
     }
 
     .project {
@@ -586,6 +587,7 @@ nav {
         justify-content: start;
         display: flex;
         align-items: start;
+        /* padding-left: .5em; */
     }
 
     .projectDiv1 {
@@ -593,13 +595,14 @@ nav {
         height: 30%;
         display: flex;
         flex-direction: column;
+        padding-left: .5em;
     }
 
     .projectDiv1>h2,
     span {
         /* background-color: #666666; */
         text-align: start;
-        padding-left: .5em;
+        /* padding-left: .5em; */
     }
 
     .projectDiv2 {
@@ -640,10 +643,12 @@ nav {
 
     .contact {
         display: flex;
+        /* width: 100vw; */
         align-items: start;
         padding-top: 1em;
         gap: 0;
         justify-content: start;
+        /* padding-left: .5em; */
         height: 73em;
         /* background-color: #7843E9; */
     }
