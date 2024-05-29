@@ -461,8 +461,9 @@ nav {
 
     .leftDiv {
         /* background-color: #7843E9; */
-        width: 100%;
-        
+        width: 100vw;
+        padding-left: .5em;
+       
     }
 
     .intro_left {
@@ -476,6 +477,11 @@ nav {
         align-items: start;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .intro_right{
+        background-color: #7843E9;
+        width: 100vw;
+        padding-left: .5em;
     }
 
     .intro_right>h1 {
@@ -505,7 +511,7 @@ nav {
 
     .about1 {
         width: 90%;
-        background-color: #7843E9;
+        /* background-color: #7843E9; */
         position: relative;
         display: flex;
         justify-content: start;
