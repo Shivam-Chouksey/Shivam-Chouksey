@@ -504,11 +504,12 @@ nav {
     }
 
     .about1 {
-        /* width: 100%; */
+        /* width: 90%; */
         /* background-color: #7843E9; */
         position: relative;
         display: flex;
         justify-content: start;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: start;
         height: 10em;
