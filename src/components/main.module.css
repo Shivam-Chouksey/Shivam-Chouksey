@@ -479,9 +479,10 @@ nav {
         flex-wrap: wrap;
     }
     .intro_right{
-        background-color: #7843E9;
+        /* background-color: #7843E9; */
         width: 100vw;
         padding-left: .5em;
+        height: 10em;
     }
 
     .intro_right>h1 {
