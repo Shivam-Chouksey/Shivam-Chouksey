@@ -480,13 +480,14 @@ nav {
     }
     .intro_right{
         /* background-color: #7843E9; */
-        width: 100vw;
+        width: 90vw;
         padding-left: .5em;
         height: 10em;
     }
 
     .intro_right>h1 {
         font-size: 35px;
+        /* margin: auto; */
     }
 
     .intro_right>span:first-of-type {
@@ -542,7 +543,7 @@ nav {
         /* padding: 1em; */
         padding-left: .5em;
         display: flex;
-        width: 90%;
+        width: 100vw;
         /* margin-bottom: 2em; */
         justify-content: start;
         align-items: start;
@@ -559,7 +560,7 @@ nav {
     .aboutDiv2underDiv {
         position: relative;
         /* background-color: blue; */
-        width: 100%;
+        width: 90vw;
         margin: 0;
         height: 90%;
         /* left: 0; */
