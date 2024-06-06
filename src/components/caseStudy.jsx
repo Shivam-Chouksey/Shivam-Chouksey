@@ -1,7 +1,7 @@
 import classes from './caseStudy.module.css'
 import { Link } from 'react-router-dom'
 import scrnst from '/Screenshot.png'
-// import common from '/common-bg.svg'
+
 export default function CaseStudy() {
     return (<>
         <div className={classes.caseStudy}>
