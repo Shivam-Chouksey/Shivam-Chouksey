@@ -41,6 +41,13 @@ Frontend Engineer with 2+ years of experience building scalable web applications
 
 ---
 
+## 📊 GitHub Stats
+
+![Shivam's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shivam-Chouksey&show_icons=true&theme=github_dark&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Shivam-Choukeys&layout=compact&theme=github_dark&hide_border=true)
+
+---
 
 ## 🤝 Connect With Me
 
